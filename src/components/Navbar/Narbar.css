@@ -1,0 +1,133 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #1f2c38;
+    color: white;
+    z-index: 1;
+    transition: all 1s;
+}
+.border-line{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.open-navbar{
+    height: 50px;
+    background-color: #1f2c38;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.icon-banner{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.list-navbar{
+    padding: 0px;
+}
+.item-navbar{
+    text-align: center;
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding: 8px;
+}
+
+.social{
+    margin: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon-social{
+    font-size: 40px;
+}
+
+.mark-x{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin: 0px;
+}
+
+@media screen and (min-width: 600px) {
+    .icon-banner{
+        font-size: 25px;
+    }
+    .item-navbar{
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navbar{
+        position: fixed;
+        display: flex;
+        height: auto;
+    }
+    .open-navbar{
+        display: none;
+    }
+    
+    .items-navbar{
+        width: 100%;
+    }
+    
+    .list-navbar{
+        display: flex;
+        justify-content: center;
+        gap:30px
+    }
+    
+    .item-navbar{
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    .social{
+        display: none;
+    }
+    .mark-x{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .items-navbar{
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+    .list-navbar{
+        width: 80%;
+    }
+    .social{
+        display: flex;
+        margin: auto;
+        
+    }
+    .icon-social{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .icon-banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .icon-banner h1{
+        font-size: 25px;
+    }
+    .item-navbar{
+        font-size: 1rem;
+    }
+}
