@@ -1,3 +1,4 @@
+import { SubBanner } from '../SubBanner/SubBanner';
 import './Banner.css'
 import { useEffect, useState } from "react";
 
@@ -42,6 +43,7 @@ const writing=async()=>{
           Hi! I'm <span className="span-Banner"> {write} <span className="cursor"></span> </span>
         </h1>
       </div>
+      <SubBanner/>
     </>
   );
 };

@@ -3,9 +3,27 @@
     animation: cursor-blink 0.4s step-end infinite;
 }
 .title-Banner{
+    margin-top: 180px;
     text-align: center;
-    padding: 50px;
 }
+
+@media screen and (min-width: 768px) {
+    .title-Banner{
+        margin-top: 220px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title-Banner{
+        font-size: 2.7rem;
+        margin-top: 150px;
+
+    }
+}
+
+
+
+
 
 @keyframes cursor-blink {
     0%, 100% {
@@ -15,3 +33,4 @@
         border-color: black; /* Hace que la barra aparezca */
     }
 }
+

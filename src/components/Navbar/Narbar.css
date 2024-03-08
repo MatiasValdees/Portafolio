@@ -8,6 +8,10 @@
     color: white;
     z-index: 1;
     transition: all 1s;
+    
+}
+.show-navbar{
+    left: 0%;
 }
 .border-line{
     border: 1px solid white;
@@ -22,9 +26,11 @@
     left: 0;
     color: white;
     width: 100%;
-    font-size: 25px;
+    font-size: 22px;
     padding: 10px;
 }
+
+
 
 .icon-banner{
     width: 100%;
@@ -47,7 +53,7 @@
     justify-content: space-around;
 }
 .icon-social{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .mark-x{
@@ -72,6 +78,8 @@
         position: fixed;
         display: flex;
         height: auto;
+        left: 0% !important;
+        transition: 0ms;
     }
     .open-navbar{
         display: none;

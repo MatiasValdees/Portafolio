@@ -1,0 +1,11 @@
+.container-sub-banner{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+@media screen and (min-width: 500px) {
+    .container-sub-banner{
+        width: 80%;
+    }
+}
