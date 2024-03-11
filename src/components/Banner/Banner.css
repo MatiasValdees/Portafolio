@@ -3,13 +3,14 @@
     animation: cursor-blink 0.4s step-end infinite;
 }
 .title-Banner{
-    margin-top: 180px;
+    margin-top: 100px;
     text-align: center;
 }
+  
 
 @media screen and (min-width: 768px) {
     .title-Banner{
-        margin-top: 220px;
+        margin-top: 120px;
     }
 }
 

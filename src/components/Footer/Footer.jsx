@@ -21,7 +21,6 @@ export const Footer = () => {
                                 <li> ReactJS <i className="fa-brands fa-react"></i></li>
                                 <li> HTML <i class="fa-brands fa-html5"></i></li>
                                 <li> CSS <i class="fa-brands fa-css3-alt"></i></li>
-                                <li> Linux <i class="fa-brands fa-linux"></i></li>
                                 <li> SQL / NoSQL <i class="fa-solid fa-database"></i></li>
                             </ul>
                         </div>
@@ -35,6 +34,7 @@ export const Footer = () => {
                             <li> Vmware <i class="fa-solid fa-server"></i></li>
                             <li> .NET </li>
                             <li> Reddis </li>
+                            <li> Linux <i class="fa-brands fa-linux"></i></li>
                         </ul>
                     </div>
                 </div>

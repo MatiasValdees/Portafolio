@@ -1,0 +1,33 @@
+.container-about-me{
+    background-color: #ecebea;
+    padding:20px
+}
+.container-summary-about-me{
+    padding-top: 20px;
+    text-align: justify;
+}
+.container-habilities{
+    text-align: justify;
+}
+
+.container-hobbies{
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-about-me{
+        width: 90%;
+        margin: auto;
+        border-radius: 7px;
+        margin-bottom: 30px;
+    }
+    .list-hobbies{
+        margin-top: 30px;
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        gap: 50px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

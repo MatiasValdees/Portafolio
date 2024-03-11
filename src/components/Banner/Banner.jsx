@@ -38,7 +38,7 @@ const writing=async()=>{
 
   return (
     <>
-      <div className="containerBanner">
+      <div className="container-banner">
         <h1 className="title-Banner">
           Hi! I'm <span className="span-Banner"> {write} <span className="cursor"></span> </span>
         </h1>

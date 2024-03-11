@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Narbar.css'
 export const Navbar = () => {
 
-    const [toggle,setToggle]=useState(false);
+    const [toggle,setToggle]=useState(true);
 
     const onToggle=()=>{
         setToggle(!toggle)

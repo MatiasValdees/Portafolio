@@ -5,8 +5,9 @@ export const SubBanner = () => {
       <>
         <div className="container-sub-banner">
           <h4>
-          Soy Desarrollador Web Back-End y Front-End, utilizando Principios S.O.L.I.D. y patrones de Diseño. 
-          Me especializo en crear páginas y sistemas Web.
+          Desarrollador Web Back-End y Front-End.
+          Amante de la Programación Orientada a Objetos, Principios S.O.L.I.D y Patrones de Diseño.
+          Enfoque en proyectos robustos y escalables.
           </h4>
         </div>
       </>

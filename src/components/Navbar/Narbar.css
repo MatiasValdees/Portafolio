@@ -46,6 +46,12 @@
     list-style-type: none;
     padding: 8px;
 }
+.item-navbar:hover{
+    cursor: pointer;
+    color: #ffc30f;
+    transform: scale(1.2, 1.2);
+
+}
 
 .social{
     margin: 20%;
@@ -137,5 +143,8 @@
     }
     .item-navbar{
         font-size: 1rem;
+    }
+    .navbar{
+        height: 100px;
     }
 }
