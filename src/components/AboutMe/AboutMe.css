@@ -13,6 +13,13 @@
 .container-hobbies{
     padding-top: 20px;
 }
+.list-hobbies{
+    padding: 12px;
+
+}
+.item-hobbie{
+    margin: 12px;
+}
 
 @media screen and (min-width: 768px) {
     .container-about-me{
@@ -26,7 +33,6 @@
         list-style-type: none;
         display: flex;
         padding: 0;
-        gap: 50px;
         font-weight: bold;
         font-size: 16px;
     }

@@ -15,26 +15,26 @@ export const Footer = () => {
                             <h3>Lenguages</h3>
                             <ul>
                                 <li> Java <i className="fa-brands fa-java"></i></li>
-                                <li> Python <i class="fa-brands fa-python"></i></li>
+                                <li> Python <i className="fa-brands fa-python"></i></li>
                                 <li> C# </li>
                                 <li> JavaScript <i className="fa-brands fa-js"></i></li>
                                 <li> ReactJS <i className="fa-brands fa-react"></i></li>
-                                <li> HTML <i class="fa-brands fa-html5"></i></li>
-                                <li> CSS <i class="fa-brands fa-css3-alt"></i></li>
-                                <li> SQL / NoSQL <i class="fa-solid fa-database"></i></li>
+                                <li> HTML <i className="fa-brands fa-html5"></i></li>
+                                <li> CSS <i className="fa-brands fa-css3-alt"></i></li>
+                                <li> SQL / NoSQL <i className="fa-solid fa-database"></i></li>
                             </ul>
                         </div>
                         <div className="footer-tecnologies">
                         <h3>Tecnologies</h3>
                         <ul>
                             <li> Spring-Boot </li>
-                            <li> Jenkins <i class="fa-brands fa-jenkins"></i></li>
-                            <li> Docker <i class="fa-brands fa-docker"></i></li>
-                            <li> AWS <i class="fa-brands fa-aws"></i></li>
-                            <li> Vmware <i class="fa-solid fa-server"></i></li>
+                            <li> Jenkins <i className="fa-brands fa-jenkins"></i></li>
+                            <li> Docker <i className="fa-brands fa-docker"></i></li>
+                            <li> AWS <i className="fa-brands fa-aws"></i></li>
+                            <li> Vmware <i className="fa-solid fa-server"></i></li>
                             <li> .NET </li>
                             <li> Reddis </li>
-                            <li> Linux <i class="fa-brands fa-linux"></i></li>
+                            <li> Linux <i className="fa-brands fa-linux"></i></li>
                         </ul>
                     </div>
                 </div>
