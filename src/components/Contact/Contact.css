@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 350px;
+    max-width: 400px;
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
@@ -176,5 +176,8 @@
     }
     .img-credit{
       height: 50px;
+    }
+    .form{
+
     }
   }  

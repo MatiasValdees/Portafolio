@@ -1,5 +1,8 @@
-import { useState } from 'react';
 import './Narbar.css'
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Contact } from '../Contact/Contact';
+
 export const Navbar = () => {
 
     const [toggle,setToggle]=useState(true);
@@ -21,12 +24,16 @@ export const Navbar = () => {
                     <h1>Portfolio</h1>
                 </div>
                 <ul className='list-navbar'>
-                    <li className='item-navbar'>Home</li>
+                    <li className='item-navbar'>
+                        <NavLink to={'/'} className={'nav-link'}>Home</NavLink> 
+                    </li>
                     <li className='item-navbar'>Trajectory</li>
                     <li className='item-navbar'>Projects</li>
                     <li className='item-navbar'>Lenguages</li>
                     <li className='item-navbar'>About me</li>
-                    <li className='item-navbar'>Contact</li>
+                    <li className='item-navbar'>
+                        <NavLink to={'/contact'} className={'nav-link'}>Contact</NavLink>
+                    </li>
                 </ul>
                 <div className="social">
                     <i className="fa-brands fa-github icon-social"></i>

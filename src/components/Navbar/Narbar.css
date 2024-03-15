@@ -10,6 +10,14 @@
     transition: all 1s;
     
 }
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color: #ffc30f;
+    transform: scale(1.2, 1.2);
+}
 .show-navbar{
     left: 0%;
 }
@@ -47,6 +55,7 @@
     list-style-type: none;
     padding: 8px;
 }
+
 .item-navbar:hover{
     cursor: pointer;
     color: #ffc30f;
