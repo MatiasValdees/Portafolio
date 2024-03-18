@@ -12,13 +12,12 @@ export const Footer = () => {
             <div className="footer-categories">
                     <div className="tec-leng-footer">
                         <div className="footer-lenguages">
-                            <h3>Lenguages</h3>
+                            <h3>Languages</h3>
                             <ul>
                                 <li> Java <i className="fa-brands fa-java"></i></li>
                                 <li> Python <i className="fa-brands fa-python"></i></li>
                                 <li> C# </li>
                                 <li> JavaScript <i className="fa-brands fa-js"></i></li>
-                                <li> ReactJS <i className="fa-brands fa-react"></i></li>
                                 <li> HTML <i className="fa-brands fa-html5"></i></li>
                                 <li> CSS <i className="fa-brands fa-css3-alt"></i></li>
                                 <li> SQL / NoSQL <i className="fa-solid fa-database"></i></li>
@@ -28,6 +27,7 @@ export const Footer = () => {
                         <h3>Tecnologies</h3>
                         <ul>
                             <li> Spring-Boot </li>
+                            <li> ReactJS <i className="fa-brands fa-react"></i></li>
                             <li> Jenkins <i className="fa-brands fa-jenkins"></i></li>
                             <li> Docker <i className="fa-brands fa-docker"></i></li>
                             <li> AWS <i className="fa-brands fa-aws"></i></li>

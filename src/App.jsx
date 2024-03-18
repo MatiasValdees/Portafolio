@@ -1,7 +1,7 @@
 import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { BrowserRouter } from 'react-router-dom'
-import { Rutas } from './routes/Router'
+import { Router } from './routes/Router'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
       <Navbar/>
-      <Rutas/>
+      <Router/>
       <Footer/>
     </BrowserRouter>
     </>

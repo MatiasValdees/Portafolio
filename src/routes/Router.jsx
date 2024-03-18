@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import { Contact } from "../components/Contact/Contact"
 import { Home } from "../Home"
 
-export const Rutas = () => {
+export const Router = () => {
     return(
         <>
         <Routes>

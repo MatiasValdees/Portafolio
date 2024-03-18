@@ -42,13 +42,15 @@
     background-color: #ffc30f;
     border-radius: 7px;
     border: none;
-    margin: auto;
+    margin: 20px auto 10px auto;
 
 }
 .btn-contact:hover{
     transform: scale(1.2, 1.2);
     cursor: pointer;
 }
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -62,7 +64,8 @@
     .parrafos{
         transition: ease-in-out transform .7s;
         width: 60%;
-        max-height: 200px;
+        max-height: 400px;
+        font-size: 1.1rem;
 
     }
     .parrafos:hover{
@@ -76,6 +79,10 @@
         padding: 20px;
 
     }
+    .btn-contact{
+        font-size: 16px;
+    }
+
 
 }
 
@@ -86,6 +93,7 @@
     }
     .parrafos{
         padding: 30px;
+        font-size: 1.15rem;
     }
     .btn-contact{
         margin-top: 30px;

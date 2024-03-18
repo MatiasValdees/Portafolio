@@ -37,3 +37,16 @@
         font-size: 16px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .container-summary-about-me{
+        font-size: 1.1rem;
+
+    }
+    .container-habilities{
+        font-size: 1.1rem;
+    }
+    .item-hobbie{
+        font-size: 1.1rem;
+    }
+}
