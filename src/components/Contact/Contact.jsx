@@ -1,11 +1,11 @@
 import './Contact.css'
-import heroku from '../../assets/tecnologies/heroku.webp'
-import vercel from '../../assets/tecnologies/vercel.webp'
-import docker from '../../assets/tecnologies/docker.webp'
-import jenkins from '../../assets/tecnologies/jenkins.webp'
-import react from '../../assets/tecnologies/react.webp'
-import springBoot from '../../assets/tecnologies/spring-boot.webp'
-import mongo from '../../assets/tecnologies/mongo.webp'
+import heroku from '/tecnologies/heroku.webp'
+import vercel from '/tecnologies/vercel.webp'
+import docker from '/tecnologies/docker.webp'
+import jenkins from '/tecnologies/jenkins.webp'
+import react from '/tecnologies/react.webp'
+import springBoot from '/tecnologies/spring-boot.webp'
+import mongo from '/tecnologies/mongo.webp'
 import { useState } from 'react'
 export const Contact = () => {
   
@@ -97,7 +97,7 @@ export const Contact = () => {
                     <p className='credit'>Para el diseño de este portafolio solo se utilizó CSS y fue desarrollado con las tecnologías de <strong>ReactJS & Vercel</strong> para Front-End y su despliegue,
                     <strong> Java Spring-Boot y Heroku</strong> para Back-End, <strong>Docker y Jenkins</strong> para su Despliegue con CI/CD, y por último <strong>MongoDB Atlas</strong> para guardar cada mensaje enviado.</p>
                 </div>
-                <div className="container-tecnologies">
+                <div className="container-tecnologies-contact">
                 <div className="container-img-tec">
                     <img src={react} alt="react" className='img-credit'/>
                     </div>

@@ -45,8 +45,6 @@ export const Carousel = () => {
 
                 ))
             }
-            
-
       </Swiper>
       </div>
     </>

@@ -6,6 +6,7 @@
 
 .cursor-subtitle{
     animation: waiting .8s infinite;
+    font-weight: 300;
 }
 
 @keyframes waiting{

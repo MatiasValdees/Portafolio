@@ -10,12 +10,10 @@ export const Languages = () =>{
     
     return(
         <>
-        <div className="section">
-            <Subtitle title={'Languages'}/>
             <div className="container-languages">
+            <Subtitle title={'Languages'}/>
                 <Carousel/>
             </div>
-        </div>
 
         </>
     )

@@ -33,7 +33,7 @@ export const Footer = () => {
                             <li> AWS <i className="fa-brands fa-aws"></i></li>
                             <li> Vmware <i className="fa-solid fa-server"></i></li>
                             <li> .NET </li>
-                            <li> Reddis </li>
+                            <li> Redis </li>
                             <li> Linux <i className="fa-brands fa-linux"></i></li>
                         </ul>
                     </div>
