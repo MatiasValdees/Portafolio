@@ -4,6 +4,7 @@
   color: white;
   padding-bottom: 80px;
   padding-top: 50px;
+  
 
 }
 .cd-container {
@@ -25,6 +26,7 @@
   padding: 2em 0;
   padding: 2em;
   margin-bottom: 2em;
+  
 }
 #cd-timeline::before {
   content: '';
@@ -37,7 +39,7 @@
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-bottom: 3em;
+  margin-bottom: 8px;
   }
   #cd-timeline::before {
     left: 50%;

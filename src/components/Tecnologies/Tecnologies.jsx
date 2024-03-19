@@ -68,7 +68,7 @@ export const Tecnologies = () =>{
                     })
                 }
                 {
-                    <div className='credit-grid mosaico8'>
+                    <div className='credit-grid mosaico8 content'>
                         <p>
                         Desarrollado por Matias Valdes Development FullStack & DevOps !
                         </p>

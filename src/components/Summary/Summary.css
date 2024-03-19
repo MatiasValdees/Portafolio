@@ -35,18 +35,22 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .btn-contact{
     transition: ease-in-out transform .6s;
     padding: 10px;
-    background-color: #ffc30f;
+    background-color: #b58b0d;
     border-radius: 7px;
     border: none;
     margin: 20px auto 10px auto;
-
+    text-decoration: none;
+    color: black;
 }
+
+
 .btn-contact:hover{
-    transform: scale(1.2, 1.2);
+    background-color: #ffc30f;
     cursor: pointer;
 }
 
