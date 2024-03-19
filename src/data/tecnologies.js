@@ -40,7 +40,7 @@ export const tecnologies = [
     {
         id:105,
         name: 'Redis',
-        exp: '2 años',
+        exp: '1 año',
         img:'/tecnologies/redis.webp',
         level:'Intermedio'
     },

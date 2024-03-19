@@ -1,6 +1,5 @@
 .container-about-me{
     background-color: #f0f6fc;
-
     padding:20px
 }
 .container-summary-about-me{
@@ -24,7 +23,6 @@
 
 @media screen and (min-width: 768px) {
     .container-about-me{
-        width: 90%;
         margin: auto;
         border-radius: 7px;
         margin-bottom: 30px;

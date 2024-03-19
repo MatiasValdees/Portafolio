@@ -5,6 +5,9 @@
     width: 90%;
     
 }
+.container-tecnologies{
+    margin-top: 100px;
+}
 .container-grid > div{
 border: 1px solid  #00bfff;
 display: flex;
@@ -25,6 +28,8 @@ background-color: black;
 .rotate > .back-img-grid{
     opacity:1;
     color: white;
+    font-size: 1.2rem;
+
 }
 
 .rotate > .img-mosaico{
@@ -44,6 +49,7 @@ background-color: black;
 
 .credit-grid{
     color: white;
+    font-size: 1.3rem;
     user-select: none; 
 }
 .credit-grid p{

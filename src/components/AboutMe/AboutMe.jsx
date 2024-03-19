@@ -3,7 +3,7 @@ import './AboutMe.css'
 export const AboutMe = () =>{
     return(
         <>
-        <div className="container-about-me" id='about-me'>
+        <div className="container-about-me" id='AboutMe'>
             <h1>About me</h1>
             <div className="container-summary-about-me">
                 <p>Tengo 26 años, cuento con 6 años de experiencia en el mundo TI, me gusta el desarrollo y cuento con habilidades sólidas en lógicas de programación y redes, es por esto que tomé un perfil profesional de Development y DevOps.</p>

@@ -6,6 +6,7 @@ import { Languages } from "./components/Languages/Languages"
 import { Navbar } from "./components/Navbar/Navbar"
 import { Summary } from "./components/Summary/Summary"
 import { Tecnologies } from "./components/Tecnologies/Tecnologies"
+import { Trajectory } from "./components/Trajectory/Trajectory"
 
 export const Home = () =>{
     return(
@@ -14,7 +15,7 @@ export const Home = () =>{
             <Summary/>
             <Languages/>
             <Tecnologies/>
-            <AboutMe/>
+            <Trajectory/>
         </>
     )
 }

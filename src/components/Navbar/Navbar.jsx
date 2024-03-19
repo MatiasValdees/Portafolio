@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <li className='item-navbar'>Trajectory</li>
                     <li className='item-navbar'>Projects</li>
                     <li className='item-navbar'>Languages</li>
-                    <li className='item-navbar'>About me</li>
+                    <li className='item-navbar' href='#AboutMe'>About me</li>
                     <li className='item-navbar'>
                         <NavLink to={'/contact'} className={'nav-link'}>Contact</NavLink>
                     </li>
