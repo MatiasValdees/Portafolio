@@ -40,8 +40,8 @@ export const Navbar = () => {
                     </li>
                 </ul>
                 <div className="social">
-                    <i className="fa-brands fa-github icon-social"></i>
-                    <i className="fa-brands fa-linkedin icon-social"></i>
+                    <a href="https://www.linkedin.com/in/matias-valdes-reyes/" target="_blank"><i className="fa-brands fa-linkedin icon-social"></i></a>
+                    <a href="https://github.com/MatiasValdees" target="_blank"><i className="fa-brands fa-github icon-social"></i></a>
                 </div>
             </div>
         </nav>

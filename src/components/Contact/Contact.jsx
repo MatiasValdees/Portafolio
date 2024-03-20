@@ -98,8 +98,8 @@ export const Contact = () => {
           </form>
           <div className="container-deploy">
                 <div className="container-credit">
-                    <p className='credit'>Para el diseño de este portafolio solo se utilizó CSS y fue desarrollado con las tecnologías de <strong>ReactJS & Vercel</strong> para Front-End y su despliegue,
-                    <strong> Java Spring-Boot y Heroku</strong> para Back-End, <strong>Docker y Jenkins</strong> para su Despliegue con CI/CD, y por último <strong>MongoDB Atlas</strong> para guardar cada mensaje enviado.</p>
+                    <p className='credit'>Este portafolio fue desarrollado con las tecnologías de <strong>ReactJS & Vercel</strong> para Front-End y su despliegue,
+                    <strong> Java Spring-Boot y Heroku</strong> para Back-End y <strong>MongoDB Atlas</strong> para guardar cada mensaje enviado.</p>
                 </div>
                 <div className="container-tecnologies-contact">
                 <div className="container-img-tec">
@@ -108,12 +108,7 @@ export const Contact = () => {
                     <div className="container-img-tec">
                     <img src={springBoot} alt="spring-boot" className='img-credit'/>
                     </div>
-                    <div className="container-img-tec">
-                    <img src={docker} alt="docker" className='img-credit'/>
-                    </div>
-                    <div className="container-img-tec">
-                    <img src={jenkins} alt="jenkins" className='img-credit'/>
-                    </div>
+            
                     <div className="container-img-tec">
                     <img src={mongo} alt="mongo" className='img-credit'/>
                     </div>

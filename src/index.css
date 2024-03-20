@@ -11,3 +11,6 @@ html{
   -ms-user-select: none; /* Desactiva la selección en Internet Explorer y Edge */
   user-select: none; /* Desactiva la selección en navegadores estándar */
 }
+a,a[target="_blank"]{
+  text-decoration: none;
+}

@@ -44,10 +44,10 @@ export const Footer = () => {
           <div className="footer-social">
                     <h3>Social</h3>
                         <div className="container-icon-social-footer">
-                        <i className="fa-brands fa-github icon-social"></i>
-                        <i className="fa-brands fa-linkedin icon-social"></i>
-                        <i className="fa-brands fa-whatsapp icon-social"></i>
-                        <i className="fa-brands fa-instagram icon-social"></i>
+                        <a href="https://www.linkedin.com/in/matias-valdes-reyes/" target="_blank"><i className="fa-brands fa-linkedin icon-social"></i></a>
+                        <a href="https://github.com/MatiasValdees" target="_blank"><i className="fa-brands fa-github icon-social"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=%2B56952116195" target="_blank"><i className="fa-brands fa-whatsapp icon-social"></i></a>
+                        <a href="https://www.instagram.com/matiasvaldes._/" target="_blank"><i className="fa-brands fa-instagram icon-social"></i></a>
                     </div>
                 </div>
           <hr className='line'/>

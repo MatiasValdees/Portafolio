@@ -4,21 +4,16 @@ import './NavbarBack.css'
 export const NavbarBack = () =>{
     return(
         <>
-        <nav className="navbar"
+        <nav className="navbar-back"
         >
-            <div className="items-navbar">
-                <div className='mark-x'><i className="fa-solid fa-x" onClick={()=>onToggle()}></i></div>
+            <div className="items-navbar-back">
                 <div className="icon-banner">
-                    <h1>Portfolio</h1>
+                    <NavLink to={'/'}>Home</NavLink> 
                 </div>
-                <ul className='list-navbar'>
-                    <li className='item-navbar'>
-                        <NavLink to={'/'} className={'nav-link'} style={{margin:'0'}}>Home</NavLink> 
-                    </li>
-                </ul>
-                <div className="social">
-                    <i className="fa-brands fa-github icon-social"></i>
-                    <i className="fa-brands fa-linkedin icon-social"></i>
+
+                <div className="social-contact">
+                    <a href="https://www.linkedin.com/in/matias-valdes-reyes/"><i className="fa-brands fa-linkedin icon-social"></i></a>
+                    <a href="https://github.com/MatiasValdees"><i className="fa-brands fa-github icon-social"></i></a>
                 </div>
             </div>
         </nav>

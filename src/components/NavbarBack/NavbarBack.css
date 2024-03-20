@@ -1,0 +1,49 @@
+.navbar-back{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #1f2c38;
+    color: white;
+    z-index: 2;
+}
+
+.items-navbar-back{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.items-navbar-back > div{
+    width: 50%;
+}
+.items-navbar-back > .icon-banner{
+    max-width: 120px;
+    text-align: start;
+    padding: 20px;
+}
+.icon-banner > a, a > i{
+    color: white;
+    text-decoration: none;
+}
+
+
+.items-navbar-back > .social-contact{
+    text-align: end;
+    padding: 20px;
+    display: flex;
+    max-width: 100px;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .items-navbar-back{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+}
