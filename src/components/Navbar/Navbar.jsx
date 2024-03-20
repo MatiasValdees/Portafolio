@@ -1,7 +1,6 @@
 import './Narbar.css'
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import { Contact } from '../Contact/Contact';
+import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
 

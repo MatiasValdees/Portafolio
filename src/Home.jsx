@@ -11,6 +11,7 @@ import { Trajectory } from "./components/Trajectory/Trajectory"
 export const Home = () =>{
     return(
         <>
+            <Navbar/>
             <Banner/>
             <Summary/>
             <Languages/>

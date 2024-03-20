@@ -7,6 +7,7 @@ import react from '/tecnologies/react.webp'
 import springBoot from '/tecnologies/spring-boot.webp'
 import mongo from '/tecnologies/mongo.webp'
 import { useState } from 'react'
+import { NavbarBack } from '../NavbarBack/NavbarBack'
 export const Contact = () => {
   
   const [data, setData]=useState({
@@ -30,6 +31,9 @@ export const Contact = () => {
 
     return (
       <>
+      {
+        <NavbarBack/>
+      }
         <div className="container-contact">
           <form className="form" onSubmit={sendData}>
             <p className="title">Contact me! </p>
