@@ -38,7 +38,7 @@ export const Tecnologies = () =>{
 
     return(
         <>
-            <div className="container-tecnologies">
+            <div className="container-tecnologies" id='section-tecnologies'>
                 <Subtitle title={'Tecnologies'}/>
                 <div className="container-grid">
                 {

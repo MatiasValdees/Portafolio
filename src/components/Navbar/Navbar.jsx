@@ -1,6 +1,6 @@
 import './Narbar.css'
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Contact } from '../Contact/Contact';
 
 export const Navbar = () => {
@@ -27,10 +27,15 @@ export const Navbar = () => {
                     <li className='item-navbar'>
                         <NavLink to={'/'} className={'nav-link'}>Home</NavLink> 
                     </li>
-                    <li className='item-navbar'>Trajectory</li>
-                    <li className='item-navbar'>Projects</li>
-                    <li className='item-navbar'>Languages</li>
-                    <li className='item-navbar' href='#AboutMe'>About me</li>
+                    <li className='item-navbar'>
+                        <a href="#section-languages">Languages</a>
+                        </li>
+                    <li className='item-navbar'>
+                        <a href="#section-tecnologies">Tecnologies</a>
+                    </li>
+                    <li className='item-navbar'>
+                        <a href={'#section-trajectory'}> Trajectory</a>
+                    </li>
                     <li className='item-navbar'>
                         <NavLink to={'/contact'} className={'nav-link'}>Contact</NavLink>
                     </li>

@@ -5,7 +5,7 @@ export const Trajectory = () =>{
     return (
       <>
       {
-        <div className="container-trajectory">
+        <div className="container-trajectory" id='section-trajectory'>
           <Subtitle title={'Trajectory'}/>
         </div>
       }
