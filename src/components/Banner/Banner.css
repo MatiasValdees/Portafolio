@@ -1,9 +1,12 @@
+.container-banner{
+    min-height: 130px;
+}
 .cursor {
     border-right: 3px solid black; /* Línea vertical que simula la barra de escritura */
     animation: cursor-blink 0.4s step-end infinite;
 }
 .title-Banner{
-    margin-top: 100px;
+    margin-top: 90px;
     text-align: center;
 }
   
