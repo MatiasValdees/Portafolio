@@ -18,7 +18,7 @@ export const Summary = () =>{
                     DevOps Cloud CI/CD en ambientes de desarrollo, QA y producción.
                 </p>
                 <div className="container-btn">
-                    <a className='btn-contact' href="/cv/Cv-Developer.pdf" download>Descargar CV</a>
+                    <a className='btn-contact' href="/cv/MatiasValdesCV.pdf" download>Descargar CV</a>
                 </div>
             </div>
 

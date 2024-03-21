@@ -23,19 +23,19 @@ export const Navbar = () => {
                     <h1>Portfolio</h1>
                 </div>
                 <ul className='list-navbar'>
-                    <li className='item-navbar'>
+                    <li className='item-navbar' onClick={()=>onToggle()}>
                         <NavLink to={'/'} className={'nav-link'}>Home</NavLink> 
                     </li>
-                    <li className='item-navbar'>
+                    <li className='item-navbar' onClick={()=>onToggle()}>
                         <a href="#section-languages">Languages</a>
                         </li>
-                    <li className='item-navbar'>
+                    <li className='item-navbar' onClick={()=>onToggle()}>
                         <a href="#section-tecnologies">Tecnologies</a>
                     </li>
-                    <li className='item-navbar'>
+                    <li className='item-navbar' onClick={()=>onToggle()}>
                         <a href={'#section-trajectory'}> Trajectory</a>
                     </li>
-                    <li className='item-navbar'>
+                    <li className='item-navbar' onClick={()=>onToggle()}>
                         <NavLink to={'/contact'} className={'nav-link'}>Contact</NavLink>
                     </li>
                 </ul>
