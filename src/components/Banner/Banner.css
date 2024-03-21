@@ -1,5 +1,5 @@
 .container-banner{
-    min-height: 130px;
+    min-height: 100px;
 }
 .cursor {
     border-right: 3px solid black; /* Línea vertical que simula la barra de escritura */
