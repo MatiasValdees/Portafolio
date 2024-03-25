@@ -18,6 +18,7 @@ background-color: black;
 }
 
 .content {
+    cursor: pointer;
     overflow: visible;
     transition: transform 0.5s; /* Transición suave para el efecto */
 }
@@ -51,13 +52,18 @@ background-color: black;
 .credit-grid{
     color: white;
     font-size: 1.3rem;
+
+
 }
 .credit-grid p{
-    text-align: center;
-    transition: 1s opacity;
+        display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
+    transition: 1s opacity;
+    height: 100%;
 }
-.credit-grid p:hover{
+.credit-grid :hover{
     opacity: 1;
 }
 
