@@ -150,10 +150,10 @@ export const Trajectory = () =>{
           </span>
           <span className="timeline-content-info-date">
             <i className="fa fa-calendar-o" aria-hidden="true"></i>
-            Enero 20204
+            Enero 2024
           </span>
         </div>
-				<p>Conocimientos sólidos en POO, Patrones de Diseños, Principios S.O.L.I.D., Diseño y Arquitectura de Software, despliegue en la nube </p>
+				<p>Conocimientos sólidos en POO, Patrones de Diseños, Principios S.O.L.I.D., Diseño y Arquitectura de Software, despliegue en la nube. </p>
 				<span className="cd-date">2024</span>
         <ul className="content-skills">
         <li>Python</li>
