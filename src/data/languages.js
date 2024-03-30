@@ -31,18 +31,18 @@ export const languages = [
             'Redux'
         ]
     },
-    {
-        id:3,
-        img:'/languages/Python.webp',
-        name:'Python',
-        stack:'FullStack',
-        exp: '1 año',
-        framework:'Django',
-        uses:[
-            'API Restful',
-            'MVC'
-        ]
-    },
+    // {
+    //     id:3,
+    //     img:'/languages/Python.webp',
+    //     name:'Python',
+    //     stack:'FullStack',
+    //     exp: '1 año',
+    //     framework:'Django',
+    //     uses:[
+    //         'API Restful',
+    //         'MVC'
+    //     ]
+    // },
     {
         id:4,
         img:'/languages/C.webp',
