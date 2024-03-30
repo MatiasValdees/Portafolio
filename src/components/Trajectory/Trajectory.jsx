@@ -15,7 +15,7 @@ export const Trajectory = () =>{
 			</div>
 
 			<div className="cd-timeline-content">
-				<h2>Graduate</h2>
+				<h2>Titulado</h2>
         <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -142,7 +142,7 @@ export const Trajectory = () =>{
 			</div>
 
 			<div className="cd-timeline-content">
-				<h2>Graduate</h2>
+				<h2>Titulado</h2>
         <div className="timeline-content-info">
           <span className="timeline-content-info-title">
             <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -153,7 +153,7 @@ export const Trajectory = () =>{
             Enero 20204
           </span>
         </div>
-				<p>Conocimientos sólidos en POO, Patrones de Diseños, Principios S.O.L.I.D., Diseño y Arquitectura de Software, despliegue en la nuve </p>
+				<p>Conocimientos sólidos en POO, Patrones de Diseños, Principios S.O.L.I.D., Diseño y Arquitectura de Software, despliegue en la nube </p>
 				<span className="cd-date">2024</span>
         <ul className="content-skills">
         <li>Python</li>
@@ -176,7 +176,7 @@ export const Trajectory = () =>{
 				<p>
           DevOps, Administador de la infraestructura. 
           <br />
-          Encargado de C/I C/D con tecnologias como Docker, Jenkins y Github.
+          Encargado de CI/CD con tecnologias como Docker, Jenkins y Github.
           <br />
         </p>
 

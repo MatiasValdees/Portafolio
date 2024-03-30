@@ -36,7 +36,7 @@ export const languages = [
         img:'/languages/Python.webp',
         name:'Python',
         stack:'FullStack',
-        exp: '1 años',
+        exp: '1 año',
         framework:'Django',
         uses:[
             'API Restful',
@@ -48,7 +48,7 @@ export const languages = [
         img:'/languages/C.webp',
         name:'C#',
         stack:'Back-End',
-        exp: '1 años',
+        exp: '1 año',
         framework:'.NET',
         uses:[
             'API Restful',
