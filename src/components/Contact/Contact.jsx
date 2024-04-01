@@ -1,8 +1,6 @@
 import './Contact.css'
 import heroku from '/tecnologies/heroku.webp'
 import vercel from '/tecnologies/vercel.webp'
-import docker from '/tecnologies/docker.webp'
-import jenkins from '/tecnologies/jenkins.webp'
 import react from '/tecnologies/react.webp'
 import springBoot from '/tecnologies/spring-boot.webp'
 import mongo from '/tecnologies/mongo.webp'

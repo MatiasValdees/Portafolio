@@ -124,6 +124,7 @@
   
   .submit:hover {
     background-color: #1f2c38;
+    cursor: pointer;
 
   }
   .credit{
