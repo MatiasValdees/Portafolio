@@ -1,5 +1,5 @@
 import './Contact.css'
-import heroku from '/tecnologies/heroku.webp'
+import koyeb from '/tecnologies/koyeb.webp'
 import vercel from '/tecnologies/vercel.webp'
 import react from '/tecnologies/react.webp'
 import springBoot from '/tecnologies/spring-boot.webp'
@@ -101,7 +101,7 @@ export const Contact = () => {
           <div className="container-deploy">
                 <div className="container-credit">
                     <p className='credit'>Este portafolio fue desarrollado con las tecnologías de <strong>ReactJS & Vercel</strong> para Front-End y su despliegue,
-                    <strong> Java Spring-Boot y Heroku</strong> para Back-End y <strong>MongoDB Atlas</strong> para guardar cada mensaje enviado.</p>
+                    <strong> Java Spring-Boot y Koyeb</strong> para Back-End y <strong>MongoDB Atlas</strong> para guardar cada mensaje enviado.</p>
                 </div>
                 <div className="container-tecnologies-contact">
                 <div className="container-img-tec">
@@ -115,7 +115,7 @@ export const Contact = () => {
                     <img src={mongo} alt="mongo" className='img-credit'/>
                     </div>
                     <div className="container-img-tec">
-                    <img src={heroku} alt="heroku" className='img-credit' />
+                    <img src={koyeb} alt="koyeb" className='img-credit' />
                     </div>
                     <div className="container-img-tec">
                     <img src={vercel} alt="vercel" className='img-credit'/>
