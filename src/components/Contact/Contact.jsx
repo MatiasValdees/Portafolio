@@ -51,7 +51,7 @@ export const Contact = () => {
               value={data.name}
               onChange={handleData}
               />
-              <span>Name</span>
+              <span>Nombre</span>
             </label>
 
             <label>
@@ -62,7 +62,7 @@ export const Contact = () => {
               value={data.email}
               onChange={handleData}
               />
-              <span>Email</span>
+              <span>Correo</span>
             </label>
 
             <label>
@@ -73,7 +73,7 @@ export const Contact = () => {
               value={data.phone}
               onChange={handleData}
               />
-              <span>Phone</span>
+              <span>Télefono o Celular</span>
             </label>
 
             <label>
@@ -84,7 +84,7 @@ export const Contact = () => {
               value={data.subject}
               onChange={handleData}
               />
-              <span>Subject</span>
+              <span>Título</span>
             </label>
             <label>
               <input className="input"
@@ -94,7 +94,7 @@ export const Contact = () => {
               value={data.message}
               onChange={handleData}
               />
-              <span>Message</span>
+              <span>Mensaje</span>
             </label>
             <button className="submit">Send!</button>
           </form>
