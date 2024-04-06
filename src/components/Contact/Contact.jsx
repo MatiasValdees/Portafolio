@@ -6,15 +6,18 @@ import springBoot from '/tecnologies/spring-boot.webp'
 import mongo from '/tecnologies/mongo.webp'
 import { useState } from 'react'
 import { NavbarBack } from '../NavbarBack/NavbarBack'
+import { sendMessage } from '../../services/sendMessage'
+
+const initialData={
+  name:"",
+  email:"",
+  phone:"",
+  subject:"",
+  message:""
+}
 export const Contact = () => {
   
-  const [data, setData]=useState({
-    name:"",
-    email:"",
-    phone:"",
-    subject:"",
-    message:""
-  })
+  const [data, setData]=useState(initialData)
 
   const handleData = ({target:{name,value}}) =>{
       setData({
@@ -22,9 +25,10 @@ export const Contact = () => {
         [name]:value
       })
   }
-  const sendData = (e) => {
+  const sendData = async(e) => {
     e.preventDefault();
-    console.log(data)
+    await sendMessage(data);
+    setData(initialData);
   }
 
     return (
@@ -36,7 +40,7 @@ export const Contact = () => {
           <form className="form" onSubmit={sendData}>
             <p className="title">Contact me! </p>
             <p className="message">
-              This email will be sent with Back-End Java Spring Boot on Heroku !
+              This email will be sent with Back-End Java Spring Boot on koyeb !
             </p>
             <label>
               <input
