@@ -6,7 +6,7 @@ export const Trajectory = () =>{
       <>
       {
         <div className="container-trajectory" id='section-trajectory'>
-          <Subtitle title={'Trajectory'}/>
+          <Subtitle title={'Trayectoria'}/>
         </div>
       }
 <section id="cd-timeline" className="cd-container">

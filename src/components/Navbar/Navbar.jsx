@@ -20,23 +20,23 @@ export const Navbar = () => {
             <div className="items-navbar">
                 <div className='mark-x'><i className="fa-solid fa-x" onClick={()=>onToggle()}></i></div>
                 <div className="icon-banner">
-                    <h1>Portfolio</h1>
+                    <h1>Portafolio</h1>
                 </div>
                 <ul className='list-navbar'>
                     <li className='item-navbar' onClick={()=>onToggle()}>
-                        <NavLink to={'/'} className={'nav-link'}>Home</NavLink> 
+                        <NavLink to={'/'} className={'nav-link'}>Inicio</NavLink> 
                     </li>
                     <li className='item-navbar' onClick={()=>onToggle()}>
-                        <a href="#section-languages">Languages</a>
+                        <a href="#section-languages">Lenguajes</a>
                         </li>
                     <li className='item-navbar' onClick={()=>onToggle()}>
-                        <a href="#section-tecnologies">Tecnologies</a>
+                        <a href="#section-tecnologies">Tecnologías</a>
                     </li>
                     <li className='item-navbar' onClick={()=>onToggle()}>
-                        <a href={'#section-trajectory'}> Trajectory</a>
+                        <a href={'#section-trajectory'}> Trayectoria</a>
                     </li>
                     <li className='item-navbar' onClick={()=>onToggle()}>
-                        <NavLink to={'/contact'} className={'nav-link'}>Contact</NavLink>
+                        <NavLink to={'/contact'} className={'nav-link'}>Contacto</NavLink>
                     </li>
                 </ul>
                 <div className="social">

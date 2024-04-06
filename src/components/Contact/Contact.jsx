@@ -38,9 +38,9 @@ export const Contact = () => {
       }
         <div className="container-contact">
           <form className="form" onSubmit={sendData}>
-            <p className="title">Contact me! </p>
+            <p className="title">Contáctame! </p>
             <p className="message">
-              This email will be sent with Back-End Java Spring Boot on koyeb !
+              Este Correo será enviado desde Back-End Java Spring Boot desplegado en Koyeb !
             </p>
             <label>
               <input

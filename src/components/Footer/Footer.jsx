@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="footer-categories">
                     <div className="tec-leng-footer">
                         <div className="footer-lenguages">
-                            <h3>Languages</h3>
+                            <h3>Lenguajes</h3>
                             <ul>
                                 <li> Java <i className="fa-brands fa-java"></i></li>
                                 <li> Python <i className="fa-brands fa-python"></i></li>
@@ -24,7 +24,7 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-tecnologies">
-                        <h3>Tecnologies</h3>
+                        <h3>Tecnologías</h3>
                         <ul>
                             <li> Spring-Boot </li>
                             <li> ReactJS <i className="fa-brands fa-react"></i></li>

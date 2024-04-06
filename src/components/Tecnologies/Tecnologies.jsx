@@ -39,7 +39,7 @@ export const Tecnologies = () =>{
     return(
         <>
             <div className="container-tecnologies" id='section-tecnologies'>
-                <Subtitle title={'Tecnologies'}/>
+                <Subtitle title={'Tecnologías'}/>
                 <div className="container-grid">
                 {
                     tecnologies.map((tec)=>{
