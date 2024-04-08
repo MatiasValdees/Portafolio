@@ -96,7 +96,7 @@ export const Contact = () => {
               />
               <span>Mensaje</span>
             </label>
-            <button className="submit">Send!</button>
+            <button className="submit">Enviar!</button>
           </form>
           <div className="container-deploy">
                 <div className="container-credit">
