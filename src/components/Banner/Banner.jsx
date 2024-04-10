@@ -40,7 +40,7 @@ const writing=async()=>{
     <>
       <div className="container-banner">
         <h1 className="title-Banner">
-          Hola !  soy <span className="span-Banner"> {write} <span className="cursor"></span> </span>
+          Hola! Soy <span className="span-Banner"> {write} <span className="cursor"></span> </span>
         </h1>
       </div>
       <SubBanner/>
