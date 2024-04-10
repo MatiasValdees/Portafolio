@@ -7,7 +7,7 @@ export const Banner = () => {
   const [write, setWrite] = useState('');
   const [repeat,setRepeat] = useState(true);
   const fullname = "Matías N. Valdés Reyes";
-  const profession = "Development Full-Stack And DevOps !";
+  const profession = "Desarrollador Full-Stack And DevOps !";
   const description = [fullname, profession]
 
   const intervalo = async (time) => {
@@ -40,7 +40,7 @@ const writing=async()=>{
     <>
       <div className="container-banner">
         <h1 className="title-Banner">
-          Hola! soy <span className="span-Banner"> {write} <span className="cursor"></span> </span>
+          Hola !  soy <span className="span-Banner"> {write} <span className="cursor"></span> </span>
         </h1>
       </div>
       <SubBanner/>
